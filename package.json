@@ -1,0 +1,28 @@
+{
+  "name": "espor",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "nuxt": "^4.4.8",
+    "pg": "^8.22.0",
+    "pinia": "^3.0.4",
+    "uuidv4": "^6.2.13",
+    "vue": "^3.5.35",
+    "vue-router": "^5.1.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.11.3",
+    "@types/node": "^26.0.0",
+    "@types/pg": "^8.20.0",
+    "vite-tsconfig-paths": "^6.1.1"
+  }
+}
