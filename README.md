@@ -1,6 +1,6 @@
-# 🚀 X-Vault Games
+# Zenix Games
 
-X-Vault Games, oyuncuların dijital oyun kütüphanelerini yönetebileceği, yeni nesil, hızlı ve güvenli bir oyun mağazası ve pazar yeri platformudur. Karanlık teması, modern arayüzü ve performans odaklı altyapısı ile tam bir oyuncu dostu deneyim sunar.
+Zenix Games, oyuncuların dijital oyun kütüphanelerini yönetebileceği, yeni nesil, hızlı ve güvenli bir oyun mağazası ve pazar yeri platformudur. Karanlık teması, modern arayüzü ve performans odaklı altyapısı ile tam bir oyuncu dostu deneyim sunar.
 
 ---
 
@@ -16,6 +16,8 @@ X-Vault Games, oyuncuların dijital oyun kütüphanelerini yönetebileceği, yen
 ## 🛠️ Teknolojiler
 
 * **Frontend & Backend:** [Nuxt 3](https://nuxt.com/) (Vue 3, Nitro Engine)
+* **Programlama Dili:** [TypeScript](https://www.typescriptlang.org/)
+* **State Yönetimi:** [Pinia](https://pinia.vuejs.org/) (Global State Management)
 * **Veritabanı:** [PostgreSQL](https://www.postgresql.org/)
 * **Validasyon:** [Zod](https://zod.dev/)
 * **Stil / Arayüz:** Tailwind CSS
@@ -26,8 +28,9 @@ X-Vault Games, oyuncuların dijital oyun kütüphanelerini yönetebileceği, yen
 
 ### 1. Projeyi Klonlayın
 
-git clone https://github.com/vaxen404/X-Vault.git
-cd X-Vault
+git clone https://github.com/vaxen404/zenix-games.git
+
+cd zenix-games
 
 ### 2. Bağımlılıkları Yükleyin
 
@@ -37,9 +40,13 @@ npm install
 Kök dizinde bir `.env` dosyası oluşturun ve veritabanı bilgilerinizi girin:
 
 DB_USER=postgres
+
 DB_PASSWORD=your_password
+
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_DATABASE=espor
 
 ### 4. Projeyi Lokal Ortamda Çalıştırın
