@@ -14,7 +14,7 @@
     const getDetails = async () => {
         if (systemStore.user === 'DemoUser' || systemStore.user === 'DemoAdmin') {
             const date = new Date().toLocaleDateString()
-            userDetails.value = {username: 'Demodmin', email: 'user@vaultx.com', created_at: date}
+            userDetails.value = {username: 'Demodmin', email: 'user@zenix.gg', created_at: date}
             return
         }
 
