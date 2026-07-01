@@ -40,12 +40,6 @@ export default defineEventHandler(async (event) => {
             [receiverId, gameId, price ,date]
         )
 
-        
-        await db.query(
-            'INSERT INTO gift_logs (sender_id, receiver_id, game_id, gifted_at) VALUES ($1, $2, $3, $4)',
-            [senderId, receiverId, gameId, date]
-        )
-
         return {
             success: true,
             message: 'Kullanıcıya başarıyla hediye edildi!'
