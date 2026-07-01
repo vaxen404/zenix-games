@@ -44,7 +44,7 @@
 
 <template>
     <div class="liblary-layout">
-        <Sidebar page="liblary"/>
+        <Sidebar page="library"/>
 
         <div class="main-panel">
             <header class="header-bar">

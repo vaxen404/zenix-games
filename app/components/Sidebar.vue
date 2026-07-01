@@ -29,7 +29,7 @@ defineProps({
             
             <template v-if="ui === 'admin'">
                 <NuxtLink to="/admin" class="nav-item" :class="{ active: page === 'home' }">HOME</NuxtLink>
-                <NujxtLink to="/admin/users" class="nav-item" :class="{ active: page === 'users' }">USERS</NujxtLink>
+                <NuxtLink to="/admin/users" class="nav-item" :class="{ active: page === 'users' }">USERS</NuxtLink>
                 <NuxtLink to="/admin/games" class="nav-item" :class="{ active: page === 'games' }">GAMES</NuxtLink>
                 <NuxtLink to="/admin/audit-log" class="nav-item" :class="{ active: page === 'audit_log' }">AUDIT LOG</NuxtLink>
             </template>
